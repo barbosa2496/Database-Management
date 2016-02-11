@@ -1,3 +1,10 @@
+
+—-Artur Barbosa
+—-Feb 10th, 2016
+—-Lab3
+
+
+
 --List the ordno and dollars of all orders
 select ordno, dollars
 from orders;
