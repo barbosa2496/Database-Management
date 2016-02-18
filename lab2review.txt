@@ -1,0 +1,35 @@
+10 pts
+
+1. 
+
+Evidence looks ok.
+
+Good organization of screenshots.
+
+
+2.
+
+Minimum knowledge of the terms primary key, candidate key, and superkey. Please
+review this concepts for the mid-term and final.
+
+
+3.
+
+You might have the wrong concept of what -nullable- means. Can a product have
+no name?
+
+
+4.
+
+The ``frist normal form'' has nothing to do with primary keys. Please check
+your notes and the textbook Chapter 6.1.
+
+The ``access rows by content only'' rule explanation is wrong. Please check
+your notes or the book Chapter 6.1.
+
+The ``all rows must be unique'' rule is not entirely correct, this part is
+wrong: ``must have a unique identifier''. Please check your class notes or
+Chapter 6.1 of the textbook.
+
+
+- Dr. Rivas
