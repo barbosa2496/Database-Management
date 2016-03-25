@@ -1,0 +1,82 @@
+9 pts
+
+1. List the ordno and dollars of all orders.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+2. List the name and city of agents named Smith.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+3. List the pid, name, and priceUSD of products with quantity more than
+208,000.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+4. List the names and cities of customers in Dallas.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+5. List the names of agents not in New York and not in Tokyo.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+6. List all data for products not in Dallas or Duluth that cost US$1 or more.
+
+Incorrect output
+-Try to use set operations, the query is returining incorrect data. It seems
+ like you did not test it.
+Query is hard to read. Please format your query for better reading. Try this:
+where city <> 'New York'
+  and city <> 'Tokyo';
+(but the query is wrong anyway, I am referring to the formatting only)
+
+
+7. List all data for orders in January or March.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+8. List all data for orders in February less than US$500.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+9. List all orders from the customer whose cid is C005.
+
+Correct output
+Correct SQL statement
+SQL statement is readable
+
+
+In general: 
+
+- Test all your SQL statements.
+
+- Make sure you use the correct dash character! There was an error:
+ERROR:  syntax error at or near "—"
+LINE 1:  —-Artur Barbosa —-Feb 10th, 2016 —-Lab3 select ordno, dolla...
+         ^
+
+
+
+- Dr. Rivas
