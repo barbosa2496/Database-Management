@@ -1,0 +1,78 @@
+8 pts
+
+Correct output for all queries
+Correct queries
+Correct SQL statements
+SQL statements are readable
+
+Correct output for some queries
+Mostly correct queries
+Mostly correct SQL statements
+SQL statements are somewhat readable
+
+Recommendations: 
+ To improve your readability, write queries instead of this
+  select distinct pid
+  from orders
+  where aid in (select aid 
+  	      from orders
+  	      where cid IN (select cid
+  		            from customers
+  		            where city = 'Dallas'))
+  		            order by pid desc;
+ do it like this:
+  SELECT DISTINCT pid
+  FROM orders
+  WHERE aid IN (SELECT aid
+                FROM orders
+                WHERE cid IN (SELECT cid
+                              FROM customers
+                              WHERE city = 'Dallas'))
+  ORDER BY pid DESC;     -- < notice the correct indentation here
+
+
+
+4. Get the ids of customers who ordered both product p01 and p07.
+
+Query is confusing. Please format your query for better reading.
+- The intersection query is incorrectly indented. It gives the impression that
+  is a subquery, but it is clearly not.
+
+5. Get the ids of products not ordered by any customers who placed any order
+through agent a07 in pid order from highest to lowest.
+
+Query is hard to read. Please format your query for better reading.
+- The ORDER BY is incorrectly indented
+
+
+6. Get the name, discounts, and city for all customers who place orders through
+agents in London or New York.
+
+Incorrect output
+- It seems like you did not read the correct instructions for this query. Read
+  it again, please.
+
+
+8. Tell me about check constraints: What are they? What are they good for? What
+is the advantage of putting that sort of thing inside the database? Make up
+some examples of good uses of check constraints and some examples of bad uses
+of check constraints. Explain the differences in your examples and argue your
+case.
+
+- You discussed constraints, but not "check constraints". There is a
+  difference. 
+
+
+In general: 
+
+- Test all your SQL statements.
+
+- Make sure you read all the instructions for queries really well.
+
+- You submitted a text file, that was not runnable. The answer to no. 8 is
+  incorrectly commented out.
+
+- Make sure your name is somewhere in the .sql file.
+
+
+- Dr. Rivas
