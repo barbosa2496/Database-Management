@@ -1,13 +1,8 @@
 8 pts
 
-Correct output for all queries
-Correct queries
 Correct SQL statements
-SQL statements are readable
-
 Correct output for some queries
 Mostly correct queries
-Mostly correct SQL statements
 SQL statements are somewhat readable
 
 Recommendations: 
