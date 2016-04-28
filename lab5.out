@@ -1,0 +1,33 @@
+<-= 1 =->
+city = New York
+city = Newark
+city = Tokyo
+city = New York
+city = Duluth
+city = Dallas
+city = London
+<-= 2 =->
+pid = p05
+pid = p03
+pid = p03
+<-= 3 =->
+name = Weyland-Yutani
+<-= 4 =->
+name = Weyland-Yutani
+<-= 5 =->
+name = Tiptop
+name = Otasi
+<-= 6 =->
+name = ACME
+name = Otasi
+name = Tiptop
+name = Otasi
+name = Allied
+name = Smith
+name = Basics
+name = Smith
+<-= 7 =->
+city = Duluth
+<-= 8 =->
+None
+<-= end =->

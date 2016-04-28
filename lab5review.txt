@@ -1,0 +1,57 @@
+7 pts
+
+Correct output for some queries
+Mostly correct queries
+Mostly correct SQL statements
+SQL statements are somewhat readable
+
+
+
+1. Show the cities of agents booking an order for a customer whose id is 
+   'c002'. Use joins; no subqueries.
+
+Incorrect output
+- You did not use joins.
+
+
+2. Show the ids of products ordered through any agent who makes at least 
+   one order for a customer in Dallas, sorted by pid from highest to 
+   lowest. Use joins; no subqueries.
+
+Incorrect query
+- You are hard-coding the specific number of customers 'c002' and 'c003', which
+  is wrong. This will only work for this specific snapshot of the database and
+  not for further snapshots. You need to use 'Dallas' as your baseline. Don't
+  do this ever again. Sneaky!
+
+
+6. Show the names of customers and agents living in the same city, along 
+   with the name of the shared city, regardless of whether or not the 
+   customer has ever placed an order with that agent.
+
+Incorrect output
+- You are missing the shared city.
+
+
+7. Show the name and city of customers who live in the city that makes the 
+   fewest different kinds of products. (Hint: Use count and group by on 
+   the Products table.)
+
+Incorrect output
+- Missing customer names.
+
+
+
+
+In general: 
+
+- Please do not use tabs for indentation. Use spaces instead.
+
+- Test all your SQL statements.
+
+- Make sure you read all the instructions for queries really well.
+
+- Make sure your name is somewhere in the .sql file.
+
+
+- Dr. Rivas
